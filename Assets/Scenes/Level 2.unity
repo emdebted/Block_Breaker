@@ -1137,10 +1137,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5527418234003831716, guid: 9f5c951b77771ec4ca7126b3a6a2eca8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5c951b77771ec4ca7126b3a6a2eca8, type: 3}
+--- !u!114 &1402858055 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 859240385, guid: 9f5c951b77771ec4ca7126b3a6a2eca8, type: 3}
+  m_PrefabInstance: {fileID: 1402858054}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1436352931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1343,24 +1354,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9000035350167748902, guid: 836fbd167342cf34e8dd3f3bce331a04, type: 3}
   m_PrefabInstance: {fileID: 1450968422}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1484880763 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2910099051007456555, guid: 67785728bfe827f4ab5d5c975299d009, type: 3}
-  m_PrefabInstance: {fileID: 1154177989}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1484880764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484880763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c825ae3f322b0f54d977b87673a30a29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  breakableBlocks: 0
 --- !u!1001 &1529134897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2167,6 +2160,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 334681077491336090, guid: a5573337e0c86464bb42d9274ab7d753, type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 1402858055}
     - target: {fileID: 334681077491336091, guid: a5573337e0c86464bb42d9274ab7d753, type: 3}
       propertyPath: m_Name
       value: GameStatus
