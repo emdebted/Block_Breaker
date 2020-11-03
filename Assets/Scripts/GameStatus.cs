@@ -16,6 +16,7 @@ public class GameStatus : MonoBehaviour
         int gameStatusCount = FindObjectsOfType<GameStatus>().Length;
         if (gameStatusCount > 1)
         {
+            gameObject.SetActive(false); //Since Destroy is called at the END of the cycle, not putting this means frame 1 of a new scene might still have two of these scripts (a big problem)
             Destroy(gameObject);
         }
         else
